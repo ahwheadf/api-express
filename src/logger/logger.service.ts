@@ -17,11 +17,11 @@ export class LoggerService {
 	}
  
 	public error(...args: unknown[]) {
-		this.logger.info(...args);
+		this.logger.error(...args);
 	}
 
 	public warn(...args: unknown[]) {
-		this.logger.info(...args);
+		this.logger.warn(...args);
 	}
 
 
