@@ -1,0 +1,29 @@
+{
+  "name": "api-with-express",
+  "version": "1.0.0",
+  "description": "API for the training project ",
+  "homepage": "https://github.com/ahwheadf/api-expressJS#readme",
+  "bugs": {
+    "url": "https://github.com/ahwheadf/api-expressJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahwheadf/api-expressJS.git"
+  },
+  "license": "ISC",
+  "author": "Dmitriy Smirnov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "tslog": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
